@@ -3,9 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
 }
 .auth-page{
+    background-color: black;
     border: 1px solid white;
     border-radius: 2px;
     height: 87vh;
@@ -23,7 +23,7 @@
 .auth-button{
     font-size: 3vh;
     border: 1px solid white;
-    border-radius: 2px;
+    border-radius: 8px;
     width: 35vw;
     height: 6vh;
     display: flex;
