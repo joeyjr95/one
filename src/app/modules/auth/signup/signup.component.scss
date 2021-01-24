@@ -1,0 +1,38 @@
+.auth-container{
+    height: calc(100vh - 7.2vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.auth-page{
+    border: 1px solid white;
+    border-radius: 2px;
+    height: 87vh;
+    width: 90vw;
+    max-height: 820px;
+    max-width: 480px;
+}
+.auth-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90%;
+}
+.auth-button{
+    font-size: 3vh;
+    border: 1px solid white;
+    border-radius: 2px;
+    width: 35vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 280px;
+    max-height: 55px;
+}
+.auth-button:hover{
+    cursor: pointer;
+}
