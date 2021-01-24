@@ -1,0 +1,34 @@
+.welcome-page-container{
+    
+    
+}
+
+
+
+.wp-first-page{
+    height: calc(100vh - 7.2vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    >h2{
+        margin-top: 8vh;
+        font-size: 7vh;
+    }
+    >div{
+        margin-top: 10vh;
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+    >#signup-button{
+        margin-top: 35vh;
+        border: 1px solid white;
+        padding: 2vh 12vw;
+        border-radius: 8px;
+        
+    }
+    >#signup-button:hover{
+        cursor: pointer;
+    }
+
+}
