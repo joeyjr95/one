@@ -25,10 +25,31 @@
         border: 1px solid white;
         padding: 2vh 12vw;
         border-radius: 8px;
+        transition-delay:2s; 
+		transition:2s ease in;
+		animation: fadeIn 2s linear;
         
     }
     >#signup-button:hover{
         cursor: pointer;
     }
 
+}
+.lineOne {
+	transition-delay:.2s; 
+	transition:.4s ease in;
+	animation: txtFlyIn .3s linear;
+}
+.lineTwo {
+	  transition-delay:.4s; 
+	  transition:.6s ease in;
+	  animation: txtFlyIn .6s linear;
+}
+@keyframes fadeIn{
+    0% { opacity:0;}
+    100% { opacity:1;}
+}
+@keyframes txtFlyIn{
+    0% { transform:translateX(-100%); }
+    100% { transform:translateX(0%); }
 }

@@ -1,16 +1,20 @@
 <div class="navbar-container">
-<div class="navbar-title" (click)="goToHome()"><h1>One.</h1></div>
-<div class="nav-icon" (click)="toggleMenu()">
+  <div class="navbar-title" (click)="goToHome()">
+    <h1>One.</h1>
+  </div>
+  <div class="nav-icon" (click)="toggleMenu()">
     <div></div>
   </div>
+  <div class="navbar-border gradient-bg"></div>
 </div>
 <div class="dd-menu" *ngIf="showMenu">
-    <ul>
-        <li>
-           <div (click)="goToAuth('signup')">Sign Up</div> 
-        </li>
-        <li>
-            <div (click)="goToAuth('login')">Log in</div>
-        </li>
-    </ul>
+  <ul>
+    <li>
+      <div (click)="goToAuth('signup')">Sign Up</div>
+    </li>
+    <li>
+      <div (click)="goToAuth('login')">Log in</div>
+    </li>
+  </ul>
+
 </div>
